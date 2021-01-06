@@ -5,4 +5,6 @@ compatible with python3.6
 - run the flask server
   > python3 main.py
 - you can found the documentation of the API in this collection
-https://www.getpostman.com/collections/6417ed7071c967ceb432
+https://documenter.getpostman.com/view/5782982/TVzNHeoZ
+- after creating the user the auth_token should be replaced in
+  the postman collection parameters as Bearer authorisation

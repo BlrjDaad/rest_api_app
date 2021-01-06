@@ -29,7 +29,6 @@ class TestAddUser(TestCase):
         self.assertTrue(isinstance(auth_token, bytes))
         # authenticate user
         response, code = authenticate_user('test@test.com', 'test')
-        print(response)
         self.assertTrue(code, 200)
         self.assertTrue(response.get('auth_token'), auth_token)
         # Update user
